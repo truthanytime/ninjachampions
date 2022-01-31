@@ -4,6 +4,7 @@
 ::-webkit-scrollbar-thumb {
   background-color: #000000;
   border: 1px solid #555555;
+  border-radius: 10px;
 }
 body {
   width: 100%;
@@ -14,4 +15,9 @@ body {
 }
 #root {
   width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
 }
